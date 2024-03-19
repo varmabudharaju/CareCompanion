@@ -1,0 +1,45 @@
+/* PatientDashboard.css */
+.patient-dashboard {
+  font-family: 'Roboto', 'Arial', sans-serif;
+  background-color: #f4f4f4; /* Light background color for the whole page */
+  min-height: 100vh; /* Ensure it covers the full height of the viewport */
+}
+
+.profile-pic {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.appointments-table {
+  margin: 20px;
+  background-color: #ffffff; /* White background for the table */
+  box-shadow: 0px 2px 4px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+}
+
+.appointments-table .MuiTableCell-root {
+  color: #333; /* Dark color for text */
+}
+
+.appointments-table .MuiTableRow-root:hover {
+  background-color: #e3f2fd; /* Light blue background on row hover */
+}
+
+.appointments-table .MuiTableHead-root {
+  background-color: #e0e0e0; /* Slightly darker background for the table head */
+}
+
+.MuiAppBar-colorPrimary {
+  background-color: #3f51b5; /* Color for the AppBar */
+}
+
+.MuiTableCell-root {
+  padding: 16px; /* More space inside each cell */
+}
+
+.MuiTableBody-root .MuiTableRow-root:nth-of-type(odd) {
+  background-color: #f9f9f9; /* Zebra striping for rows */
+}
+
+/* Add any additional styling as needed */

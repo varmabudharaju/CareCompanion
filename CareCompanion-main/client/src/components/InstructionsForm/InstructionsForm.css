@@ -1,0 +1,17 @@
+/* InstructionsForm.css */
+.instructions-form {
+    font-family: 'Roboto', 'Arial', sans-serif;
+  }
+  
+  .selection-info {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px;
+  }
+  
+  .form-content {
+    margin: 20px;
+    padding: 20px;
+  }
+  

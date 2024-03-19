@@ -1,0 +1,29 @@
+Precautions.css
+.precautions-page {
+    font-family: 'Roboto', 'Arial', sans-serif;
+    margin: 20px;
+  }
+  
+  .precaution-tiles {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  
+  .tile {
+    width: 300px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .tile:hover {
+    transform: translateY(-10px);
+  }
+  .precautions-image {
+    width: 70%; 
+    height: auto;
+    border-radius: 5px; 
+  }
